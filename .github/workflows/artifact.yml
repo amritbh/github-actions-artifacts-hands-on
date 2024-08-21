@@ -29,4 +29,4 @@ jobs:
         name: hello-artifact
         path: ./artifacts
     - name: Display structure of downloaded files
-      run: ls -R ./artifacts
+      run: cat ./artifacts/hello.txt
